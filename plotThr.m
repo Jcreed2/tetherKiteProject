@@ -1,10 +1,10 @@
 parseLogsout
  figure
-for i = 1:100:length(tsc.kitePosGnd.time)
+for i = 1:100000:length(tsc.kitePosGnd.time)
    
    
     scatter3(tsc.kitePosGnd.data(i,1),tsc.kitePosGnd.data(i,2),tsc.kitePosGnd.data(i,3))
-     xlim([0 1000])
+     xlim([-300 300])
       zlim([0 1000])
        ylim([-300 300])
     hold on 
